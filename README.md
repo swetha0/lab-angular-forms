@@ -12,6 +12,14 @@ After this lesson, you will be able to:
 - Build an Angular application with forms.
 - Performing validation in angular forms.
 
+## Learning Goals
+
+After this lesson, you will be able to:
+
+- Create a static Angular application with Angular CLI.
+- Build an Angular application with multiple component.
+- You will get to know array of objects, interfaces, classes.
+
 ## Requirements
 
 - Fork this repo.
@@ -35,9 +43,6 @@ In the pull request name, add your Prograd id, name, and last name separated by 
 
 You need to generate the starter code and fill it with the necessary code to satisfy the requirements described below.
 
-## Introduction
-
-In this lesson we are going to work with Angular for the first time. The goal here is to work on a small projects where you can practice the concepts we've learned thus far.
 
 ## Starter Code
 
@@ -58,16 +63,22 @@ To generate the starter code, follow the steps given below
     - run the command following command
     - ```ng serve --open or ng serve -o```
 
-## Progression #1: Photo Album
+## Instructions
+Once you clone your project, 
+```cd lab-angular-prograd-contacts
+   run the below command
+   npm install --save-dev @angular-devkit/build-angular
+   ```
 
-In this we are going to build a form. Imagine you need to create sign up and login form. On it, you can find a photo and its description. This is what we are going to build.
+## Progression #1: Forms
 
-We will build this album in the `AppComponent` component. The album will have three photos and their descriptions, and **it's not necessary to have an array to store these values**.
+In this we are going to build a form. Imagine you need to create sign up and login form for your application. Did you ever thought of building it. Let us try to build one.
 
-Easy, right? Add some styles to the page to give your photo album a little flair!
-
-
-
+- Go to app.component.ts and try to complete the validation code for your form.
+- To bind the form values along with your validation, try using the below code `ngClass` snippet in your html file inside the input tag.
+``` [ngClass]="{ 'is-invalid': submitted && f.firstName.errors } ```
+- Your form design in given in app.component.html, try to validate all the fields using `ngClass`.
+- Try to validate all the fields.
 
 
 Happy Coding ProGrad ❤️
