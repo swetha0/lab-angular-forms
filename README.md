@@ -11,6 +11,7 @@ After this lesson, you will be able to:
 - Create a static Angular application with Angular CLI.
 - Build an Angular application with forms.
 - Performing validation in angular forms.
+- Validators in forms.
 
 ## Requirements
 
