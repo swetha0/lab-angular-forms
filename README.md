@@ -12,14 +12,6 @@ After this lesson, you will be able to:
 - Build an Angular application with forms.
 - Performing validation in angular forms.
 
-## Learning Goals
-
-After this lesson, you will be able to:
-
-- Create a static Angular application with Angular CLI.
-- Build an Angular application with multiple component.
-- You will get to know array of objects, interfaces, classes.
-
 ## Requirements
 
 - Fork this repo.
@@ -78,7 +70,7 @@ In this we are going to build a form. Imagine you need to create sign up and log
 - To bind the form values along with your validation, try using the below code `ngClass` snippet in your html file inside the input tag.
 ``` [ngClass]="{ 'is-invalid': submitted && f.firstName.errors } ```
 - Your form design in given in app.component.html, try to validate all the fields using `ngClass`.
-- Try to validate all the fields.
+- Validate all the fields given in the form.
 
 
 Happy Coding ProGrad ❤️
