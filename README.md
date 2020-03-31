@@ -2,11 +2,9 @@
 
 # ProGrad Lab | Angular Forms
 
-
-
 ## Learning Goals
 
-After this lesson, you will be able to:
+After this lab, you will be able to:
 
 - Create a static Angular application with Angular CLI.
 - Build an Angular application with forms.
@@ -28,14 +26,11 @@ $ git commit -m "done"
 $ git push origin master
 ```
 
-Navigate to your repo and create a pull request from your master branch to the original repository's master branch.
-
-In the pull request name, add your Prograd id, name, and last name separated by a dash "-".
+Navigate to your repo and create a pull request from your master branch to the original repository's master branch. In the pull request name, add your ProGrad id, name, and last name separated by a dash "-".
 
 ## Deliverables
 
 You need to generate the starter code and fill it with the necessary code to satisfy the requirements described below.
-
 
 ## Starter Code
 
@@ -65,7 +60,7 @@ Once you clone your project,
 
 ## Progression #1: Forms
 
-In this we are going to build a form. Imagine you need to create sign up and login form for your application. Did you ever thought of building it. Let us try to build one.
+Imagine you need to create sign up and login form for your application.
 
 - Go to app.component.ts and try to complete the validation code for your form.
 - To bind the form values along with your validation, try using the below code `ngClass` snippet in your html file inside the input tag.
