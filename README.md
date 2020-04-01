@@ -68,5 +68,7 @@ Imagine you need to create sign up and login form for your application.
 - Your form design in given in app.component.html, try to validate all the fields using `ngClass`.
 - Validate all the fields given in the form.
 
+## Expected Output:
+![output](https://i1.faceprep.in/ProGrad/ts-registration.JPG)
 
 Happy Coding ProGrad ❤️
